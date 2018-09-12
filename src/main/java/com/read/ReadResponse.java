@@ -2,7 +2,6 @@ package com.read;
 
 import java.io.BufferedReader;
 import java.net.HttpURLConnection;
-import java.util.Optional;
 import java.util.Scanner;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -15,6 +14,7 @@ import org.json.JSONObject;
 public class ReadResponse {
 	JSONObject jsonobj;
 
+	@SuppressWarnings("resource")
 	public String getResponse_Message(HttpURLConnection conn, String responsetype)
 			throws Exception {
 
