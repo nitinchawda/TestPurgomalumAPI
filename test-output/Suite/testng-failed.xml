@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.user.tests.APITests">
+        <methods>
+          <include name="teardown"/>
+          <include name="test_fill_word_different_types" invocation-numbers="0"/>
+          <include name="test_fill_char_different_types" invocation-numbers="0 3 5"/>
+          <include name="testgetresponse_for_simpleplaintext_withdifferent_texttypes" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.user.tests.APITests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.433 s <<< FAILURE! - in TestSuite
+test_fill_char_different_types(com.user.tests.APITests)  Time elapsed: 0.705 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.user.tests.APITests.test_fill_char_different_types(APITests.java:118)
+
+test_fill_char_different_types(com.user.tests.APITests)  Time elapsed: 0.537 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.user.tests.APITests.test_fill_char_different_types(APITests.java:118)
+

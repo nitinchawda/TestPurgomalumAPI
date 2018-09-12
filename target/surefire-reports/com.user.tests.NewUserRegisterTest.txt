@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.user.tests.NewUserRegisterTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.712 s - in com.user.tests.NewUserRegisterTest
